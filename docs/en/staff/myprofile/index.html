@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="description" content=" ">
+
+    <title>
+        
+            
+                Adding Employee and availability - Gleeshift Schedule
+            
+        
+    </title>
+
+
+
+    <link rel="SHORTCUT ICON" href="/favicon.ico"/>
+    <link rel="canonical" href="http://www.gleeshift.com/docs/en/staff/myprofile/">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+    
+    <link rel="stylesheet" type="text/css" href="/static/js/lib/prettify/prettify.css">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var disqus_developer = 1; // this would set it to developer mode
+    </script>
+
+    <!-- JS -->
+    <script defer type="text/javascript" src="/static/js/lib/jquery-2.1.1.min.js"></script>
+    <script defer type="text/javascript" src="/static/js/lib/bootstrap.min.js"></script>
+    <script defer type="text/javascript" src="/static/js/lib/ZeroClipboard.js"></script>
+
+</head>
+
+<body>
+    <header>
+    <a class="scroll-point pt-top" name="top"></a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img id="logo_top" src="/static/img/gleeshift-logo.svg"/></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="nav_bar_center">
+                    <ul class="nav navbar-nav">
+                        <li >
+                            <a href="/docs/en/manager/getstart/">Manager Guide</a>
+                        </li>
+                        <li >
+                            <a href="/docs/en/staff/getstart/">Employee Guide</a>
+                        </li>
+
+                        <!--
+                                                <li>
+                                                    <a href="https://localhost:8080/demo">Demo</a>
+                                                </li>
+                                                 -->
+                        <li>
+                            <a href="/#getstarted">Get Started</a>
+                        </li>
+                        <li >
+                            <a href="/pricing/">Pricing</a>
+                        </li>
+                        <li>
+                            <a  href="http://app.gleeshift.com/login">Login</a>
+                        </li>
+                        <li>
+                            <a href="http://app.gleeshift.com/signup">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </nav>
+    <div id="_fixed_navbar_spacer" style="padding-top:50px"></div>
+</header>
+
+    <!-- Use the manual ToC, and if it doesn't exist, use the generated one -->
+
+
+    
+
+
+
+
+
+
+
+
+<div class="docs container">
+
+    <!-- Table of Contents -->
+    <div class="hidden-xs hidden-sm col-md-3 site-toc-container">
+        <h2 class="site-toc-title">Table of Contents</h2>
+        <ul class="site-toc">
+            
+            <li>
+                <a class="" href="../index.html">
+                    Guides
+                </a>
+                
+            </li>
+            
+            <li>
+                <a class="" href="../getstart/index.html">
+                    Getting Started
+                </a>
+                
+            </li>
+            
+            <li>
+                <a class="" href="../shift/index.html">
+                    My Shifts
+                </a>
+                
+            </li>
+            
+            <li>
+                <a class="" href="../timeoff/index.html">
+                    Time Off
+                </a>
+                
+            </li>
+            
+            <li>
+                <a class="" href="../swap/index.html">
+                    Swap request
+                </a>
+                
+            </li>
+            
+            <li>
+                <a class="this-page" href="../myprofile/index.html">
+                    My Profile
+                </a>
+                
+                    <div id="page-toc" class="page-toc"></div>
+                
+            </li>
+            
+        </ul>
+    </div>
+
+    <!-- Page content -->
+    <div class="col-md-8 col-md-offset-1">
+
+        <!-- ToC Dropdown (for XS and SM sizes only) -->
+        <div class="toc-dropdown content-header visible-xs-block visible-sm-block">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="tocDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Table of Contents
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    
+                    <li>
+                        <a class="" href="../index.html">
+                            
+                                Guides
+                                <!-- DEBUG: /docs/en/staff/myprofile/index.html != /docs/en/staff/index.html -->
+                            
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="../getstart/index.html">
+                            
+                                Getting Started
+                                <!-- DEBUG: /docs/en/staff/myprofile/index.html != /docs/en/staff/getstart/index.html -->
+                            
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="../shift/index.html">
+                            
+                                My Shifts
+                                <!-- DEBUG: /docs/en/staff/myprofile/index.html != /docs/en/staff/shift/index.html -->
+                            
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="../timeoff/index.html">
+                            
+                                Time Off
+                                <!-- DEBUG: /docs/en/staff/myprofile/index.html != /docs/en/staff/timeoff/index.html -->
+                            
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="../swap/index.html">
+                            
+                                Swap request
+                                <!-- DEBUG: /docs/en/staff/myprofile/index.html != /docs/en/staff/swap/index.html -->
+                            
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="this-page" href="../myprofile/index.html">
+                            
+                                <em>My Profile</em>
+                            
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-header">
+
+
+
+            <!-- Language dropdown -->
+            <!--
+
+                       <div class="dropdown">
+                           <button class="btn btn-default dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               English
+                               <span class="caret"></span>
+                           </button>
+                            -->
+
+                           <!-- -- List all languages -->
+            <!--
+
+                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                     
+
+                     
+                     
+
+                     
+                     
+                      -->
+
+                     <!-- --
+                     Replace only the language part of the URI, thereby
+                     redirecting to the same page in the other language.
+                     The page should exist because it's for the same version. -->
+
+            <!--
+
+                     
+
+                     
+
+                     <li>
+                         <a href="/docs/en/staff/myprofile/index.html" class="
+                         
+                         
+                     "
+                         >
+                             
+                                 <span class="selected">
+                                     English
+                                 </span>
+                             
+                         </a>
+                     </li>
+                     
+                 </ul>
+             </div>
+              -->
+
+
+             <!-- Version dropdown -->
+
+
+        </div>
+
+
+        <div id="page-toc-source">
+            <h1>My profile</h1>
+
+<p>You can update your own information, set your work availability and change your password. </p>
+
+<h2>Update your profile</h2>
+
+<p>To update your own profile, click on the <strong>My Profile</strong> menu on the left-side menu. click on the link on your name, you will see the info as below. </p>
+
+<div class="row">
+ <div class="thumbnail col-xs-12  col-md-12">
+        <a href="/static/img/staff/myprofile.png">
+            <img src="/static/img/staff/myprofile.png" alt="myprofile"
+                    ></a>
+    
+     </div>
+</div> 
+
+<h2>Set Employee Availability</h2>
+
+<p>On the my profile edit page (see above). click on the caret beside the <strong>Edit</strong> and a dropdown menu will appear. Select <strong>Availiability</strong>. </p>
+
+<p>The employee availability page will show as below. </p>
+
+<div class="row">
+ <div class="thumbnail col-xs-12  col-md-12">
+        <a href="/static/img/staff/myprofile_avail.png">
+            <img src="/static/img/staff/myprofile_avail.png" alt="set employee availability"
+                    ></a>
+            
+     </div>
+</div>       
+
+<p>On the top of the page, there is a tool bar. 
+Then a table; the Columns are from Sunday to Saturday. The Rows are those shift templates your manager has created.    </p>
+
+<p>In order to mark availability, click on the box that corresponds with the correct day and time. 
+To select the entire row or column, click on the day or time shift of that column or row.
+To deselect, simply click the box again.</p>
+
+<p>Once you are done selecting your availability for the week, click the <strong>Update</strong> at the bottom in order to save. 
+Your availability for that week will also carry over to future weeks; 
+in order to change that, simply move between weeks by clicking on the arrow buttons (the tool bar) at the top of the page.</p>
+
+<p>You can also save your availability for future dates by using the arrow buttons.  </p>
+
+<h2>Reset password</h2>
+
+<p>In the my profile edit page (see above). click on the caret beside the <strong>Edit</strong> and a dropdown menu will appear. Select <strong>Change password</strong>. </p>
+
+<p>The Change password panel will show. Follow the screen to change the password.</p>
+
+
+        </div>
+    </div>
+</div>
+
+<script defer type="text/javascript" src="/static/js/lib/toc.min.js"></script>
+<script defer type="text/javascript" src="/static/js/docs.js"></script>
+
+    <div class="blue-divider"></div>
+<footer>
+    <div class="container" id="footer">
+
+        <p class="copyright_text">
+
+            Email:<a href="mailto:info@GleeShift.com">info@GleeShift.com</a> •
+            Phone: 347-688-6322 •
+            <a href="/legal.html">Terms of Serive</a>
+            <br />
+            Copyright &copy; 2015 GleeShift.com All rights reserved.
+        </p>
+        <a class="closing" href="#top"></a>
+    </div>
+</footer>
+
+<script defer type="text/javascript" src="/static/js/lib/prettify/prettify.js"></script>
+<script defer type="text/javascript" src="/static/js/index.js"></script>
+<script defer type="text/javascript" src="/static/js/twitter.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+/*
+********* Getting Started ***********
+*/
+.get-started-section {
+    margin-bottom:20px;
+}
+.number_circle {
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    padding: 8px;
+    font-size: 24px;
+    color: #ffffff;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color:#3992AB;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.docs {
+    margin-bottom: 20px;
+    /* this is so that wide images don't stick out of their paragraphs */
+    /* outer ToC for the site */
+    /* inner ToC for the page */
+    /* Quick fix to remove redundant TOC entries */
+    /* header above page content */
+    /* missing version highlight */
+    /* Formatting for compatibility table on plugin docs page */ }
+.docs p img {
+    max-width: 100%; }
+.docs pre {
+    word-wrap: normal; }
+.docs pre code {
+    overflow: auto;
+    white-space: pre; }
+.docs .site-toc-title {
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase; }
+.docs .site-toc {
+    padding: 0px; }
+.docs .site-toc li {
+    list-style: none; }
+.docs .site-toc > li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0.5em 0em; }
+.docs .site-toc > li .this-page {
+    font-weight: bold; }
+.docs .page-toc ul {
+    padding: 0px; }
+.docs .page-toc ul > li {
+    padding: 0.5em 0em 0.5em 1em;
+    font-size: 14px;
+    border-left: 0.5em solid rgba(76, 194, 228, 0.5); }
+.docs .page-toc ul > li.toc-active {
+    font-weight: bold;
+    border-left: 0.5em solid #4CC2E4; }
+.docs .page-toc li:first-of-type {
+    display: none; }
+.docs .page-toc li:nth-of-type(2) {
+    margin-top: 14px; }
+.docs .content-header {
+    text-align: right;
+    margin-top: 22px; }
+.docs .content-header .alert {
+    text-align: left; }
+.docs .toc-dropdown {
+    text-align: center;
+    width: 100%; }
+.docs .toc-dropdown .dropdown {
+    width: inherit; }
+.docs .toc-dropdown .dropdown button {
+    width: inherit; }
+.docs .alert.alert-warning.alert-dismissible {
+    margin-top: 15px; }
+.docs .dropdown {
+    display: inline-block; }
+.docs .dropdown:not(:last-child) {
+    margin-right: 0.3em; }
+.docs .dropdown .selected {
+    font-weight: bold;
+    font-style: italic; }
+.docs .dropdown button.dropdown-toggle {
+    border-radius: 4px;
+    background-color: #d6d6d6; }
+.docs .dropdown button.dropdown-toggle:hover {
+    background-color: #bfbfbf; }
+.docs .dropdown-menu {
+    left: inherit;
+    right: 0; }
+.docs .content-header .edit {
+    margin-right: 0.5em;
+    margin-left: 0.5em; }
+.docs .missing-version {
+    color: gray !important; }
+.docs .keyword-index-list {
+    list-style: none; }
+.docs .keyword-index-list .keyword-index-h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 18px;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1; }
+.docs .keyword-index-list .keyword-index-sublist {
+    min-height: 180px;
+    list-style: none; }
+.docs .docs-alert {
+    margin-top: 22px; }
+.docs .compat {
+    /* Not compataible (pink with X) */
+    /* Is compataible (green with check) */
+    /* Partially compataible */ }
+.docs .compat td {
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 2px; }
+.docs .compat th {
+    text-align: center; }
+.docs .compat .n::before {
+    margin-right: 5px;
+    content: "\2718"; }
+.docs .compat .n {
+    background-color: pink;
+    margin-right: 5px; }
+.docs .compat .y::before {
+    margin-right: 5px;
+    content: "\2714"; }
+.docs .compat .y {
+    background-color: lightgreen; }
+.docs .compat .p {
+    background-color: khaki; }
+.docs #home h1 {
+    border-bottom: 1px solid #919395;
+    padding-bottom: 20px;
+    margin: 30px 0px; }
+.docs #home h2 {
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    display: block; }
+.docs #home h2:after {
+    content: ''; }
+.docs #home span {
+    font-size: 14px; }
+.docs #home ul {
+    float: left;
+    margin: 0px;
+    padding: 0px; }
+.docs #home ul li {
+    float: left;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    width: 240px;
+    height: 120px; }
+
+html[lang="ru"] .docs #home ul li {
+    height: 160px; }
+
