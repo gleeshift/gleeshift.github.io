@@ -2,22 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://www.gleeshift.com/404.html</loc>
-        <lastmod>2016-01-29T13:38:31-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <priority>0.1</priority>
     </url>
     <url>
         <loc>http://www.gleeshift.com/</loc>
-        <lastmod>2016-02-04T13:59:15-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.gleeshift.com/pricing/</loc>
-        <lastmod>2016-02-02T12:29:23-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.gleeshift.com/docs/en/staff/myprofile/</loc>
-        <lastmod>2016-02-04T16:55:26-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
@@ -77,24 +77,28 @@
     </url>
     <url>
         <loc>http://www.gleeshift.com/docs/en/manager/publish/</loc>
-        <lastmod>2016-02-03T20:16:25-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>http://www.gleeshift.com/docs/en/manager/</loc>
-        <lastmod>2016-01-31T17:24:48-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>http://www.gleeshift.com/docs/en/manager/employee/</loc>
-        <lastmod>2016-02-04T14:06:08-05:00</lastmod>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>http://www.gleeshift.com/legal.html</loc>
         <lastmod>2016-01-31T17:07:42-05:00</lastmod>
+    </url>
+   <url>
+        <loc>http://www.gleeshift.com/refer-and-earn.html</loc>
+        <lastmod>2016-02-16T12:46:04-05:00</lastmod>
     </url>
 </urlset>
